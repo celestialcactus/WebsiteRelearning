@@ -1,0 +1,95 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Portfolio Page</title>
+  <meta name="description" content="Portfolio">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+  <div id="toggleMenu" onclick="toggleMenu()"></div>
+
+    <nav id="menu">
+      <img src="images/cyberlogo.jpg">
+        <ul>
+            <li><a href="#">Home<a/></li>
+            <li><a href="#">Cases<a/></li>
+            <li><a href="#">Personal Projects<a/></li>
+            <li><a href="#">About Me<a/></li>
+            <li><a href="#">Contact<a/></li>
+        </ul>
+    </nav>
+    <script>
+      var toggleStatus = 1;
+      function toggleMenu() {
+        if (toggleStatus == 1) {
+            document.getElementById("menu").style.left = "-240px";
+            toggleStatus = 0;
+        } else if (toggleStatus == 0) {
+            document.getElementById("menu").style.left = "0px";
+            toggleStatus = 1;
+        }
+      }
+    </script>
+  </div>
+
+    <div class="header">
+      <div class="intro">
+        <h1>I'd pretend I was one of those deaf mutes...</h1>
+      </div>
+    </div>
+
+    <div class="aboutsection">
+      <div class="About">
+          <h3>About</h3>
+          <p>-</p>
+          <h2> I create multimedia experiences and Sci-Fi inspired art. </h2>
+      </div>
+      <div class="social">
+          <h3>Social</h3>
+          <p>-</p>
+          <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+          </ul>
+      </div>
+      <div class="contact">
+          <h3>Contact</h3>
+          <p>-</p>
+          <h2> If you have any inquiry reach out to me on social or on my contact page.</h2>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <img src="images/triangleglitch.gif" style="width:100%">
+      </div>
+      <div class="column2">
+        <img src="images/aesthetic.jpg" style="width:100%">
+      </div>
+      <div class="exporttest">
+          <video autoplay muted loop id="headervideo">
+          <source src="videos/exporttest.mp4" type="video/mp4">
+          </video>
+        </<div>
+      </div>
+    </div>
+
+
+    <div class="pagedescription">
+      <p>RAF tube monofilament assault market media long-chain hydrocarbons car Tokyo modem footage geodesic rain dolphin sign rain. systema RAF drone drugs boat meta- refrigerator carbon math- warehouse dead cartel claymore mine paranoid free-market neon. vinyl kanji neural fetishism franchise drone alcohol systemic media motion nodality nodal point spook savant into range-rover. footage skyscraper sensory decay nodal point into garage order-flow weathered San Francisco soul-delay hacker vehicle free-market vehicle motion. claymore mine nano- ablative faded numinous corporation physical silent spook city DIY otaku Kowloon film corporation cartel. tiger-team San Francisco Chiba skyscraper man euro-pop disposable construct nodal point media singularity refrigerator San Francisco grenade hacker smart-. tower -ware drugs assassin corrupted disposable semiotics paranoid savant skyscraper tube -ware table drone crypto- BASE jump. sensory warehouse BASE jump stimulate paranoid office uplink -space knife 3D-printed corrupted futurity neon 3D-printed 3D-printed tank-traps.
+      </p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,163 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+
+body {
+  background-color: #272727;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  opacity: 0.2px;
+}
+nav {
+  width: 240px;
+  background-color: #fff;
+  opacity: 0.4;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  transition: all ease-in-out 200ms;
+  -webkit-transition: all ease-in-out 200ms;
+  }
+nav img {
+  display:block;
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+nav ul {
+  padding-left: 30px;
+  padding-top: 60px;
+}
+
+ nav li {
+  list-style: none;
+  padding: 4px 0px;
+}
+
+nav a {
+  font-family: Lato;
+  font-weight: 400;
+  color: #272727;
+  text-transform: uppercase;
+}
+  #toggleMenu {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    background-image: url(images/menuiconv1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1050;
+    cursor: pointer;
+    border: 10px solid #fff;
+    border-radius: 2px;
+    transition: all ease-in-out 200ms;
+    -webkit-transition: all ease-in-out 200ms;
+
+  }
+
+  #toggleMenu:hover {
+    opacity: 0.7;
+  }
+
+    .header {
+      display:block;
+      background-image: url(images/triangleglitch.gif);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: auto;
+      background-color: #3333;
+      padding-top: 720px;
+    }
+
+
+
+
+
+    .intro {
+      color: #fff;
+      bottom: 0;
+      font-family: Lato;
+      font-weight: 900;
+      font-size: 30px;
+      padding-left: 300px;
+      padding-bottom: 200px;
+
+    }
+
+    .aboutsection {
+        background-color: #fff;
+        padding-top: 50px;
+        padding-bottom: 150px;
+        padding-left: 300px;
+        padding-right: 300px;
+        font-family: Lato;
+    }
+
+    .About {
+        float: left;
+        width: 33.33%;
+    }
+    .About h3 {
+
+    }
+
+    .social {
+        float: left;
+        width: 33.33%;
+        text-align: center;
+        list-style: none;
+    }
+
+    .social ul li {
+      list-style: none;
+    }
+
+    .contact {
+        float: left;
+        width: 33.33%;
+    }
+
+    .row {
+
+    }
+    .column {
+      float: left;
+      width: 50%;
+      opacity: 0.5px;
+
+     }
+
+     .column2 {
+       float: left;
+       width: 50%;
+       opacity: 0.5px;
+
+      }
+      .exporttest {
+        right: 0;
+        bottom: 0;
+        padding-left: 300px;
+        min-width: 100%;
+        min-height: 100%;
+      }
+
+     .pagedescription {
+       diplay:block;
+       width: 60%;
+       padding-left: 200px;
+       padding-right:200px;
+       color: #fff;
+       text-align: center;
+
+     }
